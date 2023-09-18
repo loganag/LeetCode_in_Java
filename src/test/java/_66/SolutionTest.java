@@ -1,4 +1,4 @@
-package org.git.loganag._66_plus_one;
+package _66;
 
 import org.git.loganag._66.Solution;
 import org.junit.jupiter.api.Test;

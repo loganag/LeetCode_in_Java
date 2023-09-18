@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d238eee-bf30-488a-b57d-400a2e873b95" name="Changes" comment="Added Maven and Junit testing.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1d238eee-bf30-488a-b57d-400a2e873b95" name="Changes" comment="Tests for 09 Palindrome number">
+      <change afterPath="$PROJECT_DIR$/src/test/java/_09/SolutionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2VVr0yE3yvCWbz5jf6YInwcNX54" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -83,12 +87,12 @@
       <module name="LeetCode_problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.git.loganag._66_plus_one.*" />
+          <option name="PATTERN" value="_66.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.git.loganag._66_plus_one" />
-      <option name="MAIN_CLASS_NAME" value="org.git.loganag._66_plus_one.SolutionTest" />
+      <option name="PACKAGE_NAME" value="_66" />
+      <option name="MAIN_CLASS_NAME" value="_66.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,12 +102,12 @@
       <module name="LeetCode_problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.git.loganag._66_plus_one.*" />
+          <option name="PATTERN" value="_66.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.git.loganag._66_plus_one" />
-      <option name="MAIN_CLASS_NAME" value="org.git.loganag._66_plus_one.SolutionTest" />
+      <option name="PACKAGE_NAME" value="_66" />
+      <option name="MAIN_CLASS_NAME" value="_66.SolutionTest" />
       <option name="METHOD_NAME" value="plusOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -128,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694931871242</updated>
       <workItem from="1694931872687" duration="2735000" />
-      <workItem from="1695061487453" duration="1180000" />
+      <workItem from="1695061487453" duration="1495000" />
     </task>
     <task id="LOCAL-00001" summary="Added Maven and Junit testing.">
       <option name="closed" value="true" />
@@ -146,7 +150,31 @@
       <option name="project" value="LOCAL" />
       <updated>1694933693720</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Solved 09 Palindrome Number">
+      <option name="closed" value="true" />
+      <created>1695062735831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695062735831</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tests for 09 Palindrome number">
+      <option name="closed" value="true" />
+      <created>1695062921326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695062921326</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tests for 09 Palindrome number">
+      <option name="closed" value="true" />
+      <created>1695062979257</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695062979257</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +193,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Maven and Junit testing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Maven and Junit testing." />
+    <MESSAGE value="Solved 09 Palindrome Number" />
+    <MESSAGE value="Tests for 09 Palindrome number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests for 09 Palindrome number" />
   </component>
 </project>
