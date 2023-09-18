@@ -50,7 +50,7 @@
       <recent name="C:\Users\alexe\OneDrive\Desktop\Projects\LeetCode_problems\src\main\java\org\git\loganag" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.git.loganag._09.Solution" />
       <module name="LeetCode_problems" />
@@ -60,6 +60,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode_problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_09" />
+      <option name="MAIN_CLASS_NAME" value="_09.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.SolutionTest.plusOne" />
