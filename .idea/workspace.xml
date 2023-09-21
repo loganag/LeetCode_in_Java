@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d238eee-bf30-488a-b57d-400a2e873b95" name="Changes" comment="Tests for 09 Palindrome number">
-      <change afterPath="$PROJECT_DIR$/src/test/java/_09/SolutionTest.java" afterDir="false" />
+    <list default="true" id="1d238eee-bf30-488a-b57d-400a2e873b95" name="Changes" comment="Refactor test packages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_344/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_344/SolutionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +55,26 @@
       <recent name="C:\Users\alexe\OneDrive\Desktop\Projects\LeetCode_problems\src\main\java\org\git\loganag" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (1)">
+  <component name="RunManager" selected="JUnit.SolutionTest (2)">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.git.loganag._09.Solution" />
       <module name="LeetCode_problems" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.git.loganag._09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.git.loganag._344.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.git.loganag._344.Solution" />
+      <module name="LeetCode_problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.git.loganag._344.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +97,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode_problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_344.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_344" />
+      <option name="MAIN_CLASS_NAME" value="_344.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode_problems" />
       <extension name="coverage">
@@ -98,28 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.plusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode_problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_66.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_66" />
-      <option name="MAIN_CLASS_NAME" value="_66.SolutionTest" />
-      <option name="METHOD_NAME" value="plusOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (2)" />
+        <item itemvalue="Application.org.git.loganag._344.Solution" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.plusOne" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +146,9 @@
       <option name="presentableId" value="Default" />
       <updated>1694931871242</updated>
       <workItem from="1694931872687" duration="2735000" />
-      <workItem from="1695061487453" duration="1495000" />
+      <workItem from="1695061487453" duration="1641000" />
+      <workItem from="1695103501366" duration="1473000" />
+      <workItem from="1695305593768" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="Added Maven and Junit testing.">
       <option name="closed" value="true" />
@@ -174,7 +190,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695062979257</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactor test packages">
+      <option name="closed" value="true" />
+      <created>1695063115511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695063115511</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactor test packages">
+      <option name="closed" value="true" />
+      <created>1695063122844</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695063122844</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +227,7 @@
     <MESSAGE value="Added Maven and Junit testing." />
     <MESSAGE value="Solved 09 Palindrome Number" />
     <MESSAGE value="Tests for 09 Palindrome number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests for 09 Palindrome number" />
+    <MESSAGE value="Refactor test packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor test packages" />
   </component>
 </project>
